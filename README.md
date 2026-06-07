@@ -90,6 +90,17 @@ signal-processing-roadmap/
 
 ---
 
+## 🎯 Learning Goals
+
+By the end of this roadmap, you will:
+
+✅ Understand DSP concepts like sampling, aliasing, filtering, FFT, STFT, convolution, etc.  
+✅ Design filters (FIR/IIR) and apply real-time signal analysis  
+✅ Work with real signals: voice, ECG, radar, sensors  
+✅ Build your own signal processing projects for AI, IoT, or research  
+
+---
+
 ## 🔥 License
 
 This project is open-source under the MIT License. Feel free to fork, contribute, or adapt for teaching and self-learning.
