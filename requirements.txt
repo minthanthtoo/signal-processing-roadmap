@@ -5,3 +5,5 @@ librosa
 pandas
 ipywidgets
 jupyter
+scikit-learn
+
