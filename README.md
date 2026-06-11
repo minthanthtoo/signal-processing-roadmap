@@ -36,9 +36,9 @@ This repo contains **16 weeks of structured content** with interactive Jupyter N
 | 01 | Signals & Systems | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_01_Signals_And_Systems.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_01_Signals_And_Systems.ipynb) |
 | 02 | Fourier, Z, Laplace | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_02_Sampling_And_Aliasing.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_02_Sampling_And_Aliasing.ipynb) |
 | 03 | Sampling & Aliasing | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_03_Fourier_Series_and_DFT.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_03_Fourier_Series_and_DFT.ipynb) |
-| 04 | Digital Filters (FIR/IIR) | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_04_Digital_Filters.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_04_Digital_Filters.ipynb) |
-| 05 | FFT, STFT, Spectrogram | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_05_FFT_STFT_Spectrogram.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_05_FFT_STFT_Spectrogram.ipynb) |
-| 06 | Advanced Frequency Analysis | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_06_Advanced_Spectral.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_06_Advanced_Spectral.ipynb) |
+| 04 | Digital Filters (FIR/IIR) | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_04_Filters.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_04_Filters.ipynb) |
+| 05 | FFT, STFT, Spectrogram | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_05_FFT_STFT.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_05_FFT_STFT.ipynb) |
+| 06 | Advanced Frequency Analysis | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_06_Spectrograms.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_06_Spectrograms.ipynb) |
 | 07 | Audio & Speech | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_07_Audio_Speech.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_07_Audio_Speech.ipynb) |
 | 08 | Audio Denoising | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_08_Audio_Denoising.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_08_Audio_Denoising.ipynb) |
 | 09 | Biomedical (ECG, EEG) | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_09_Biomedical.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_09_Biomedical.ipynb) |
@@ -56,8 +56,8 @@ This repo contains **16 weeks of structured content** with interactive Jupyter N
 
 ```
 signal-processing-roadmap/
-├── Week_01_Signals_Systems.ipynb
-├── Week_02_Fourier_Z_Laplace.ipynb
+├── Week_01_Signals_And_Systems.ipynb
+├── Week_02_Sampling_And_Aliasing.ipynb
 ├── …
 ├── Week_16_Wavelets_ICA_ML.ipynb
 └── datasets/
