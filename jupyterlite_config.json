@@ -1,0 +1,10 @@
+{
+  "JupyterLiteBuildConfig": {
+    "output_dir": "dist",
+    "apps": [
+      "notebook",
+      "lab"
+    ],
+    "federated_extensions": []
+  }
+}

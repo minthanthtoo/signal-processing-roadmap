@@ -1,0 +1,7 @@
+dist/
+.jupyterlite.doit.db
+temp.mp3
+temp.wav
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

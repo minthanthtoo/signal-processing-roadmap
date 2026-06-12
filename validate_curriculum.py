@@ -37,13 +37,22 @@ def main():
     }
 
     # Verify files exist in filesystem
-    print("-> Checking physical notebook existence...")
+    print("-> Checking physical notebook existence (Root, Master, Solutions)...")
     for week, filename in expected_notebooks.items():
-        path = os.path.join(REPO_ROOT, filename)
-        if not os.path.exists(path):
-            errors.append(f"Missing notebook file in repository: {filename}")
-        else:
-            print(f"   [OK] {filename} exists")
+        root_path = os.path.join(REPO_ROOT, filename)
+        if not os.path.exists(root_path):
+            errors.append(f"Missing student notebook in root: {filename}")
+            
+        master_path = os.path.join(REPO_ROOT, "master", filename)
+        if not os.path.exists(master_path):
+            errors.append(f"Missing master notebook in master/: {filename}")
+            
+        solution_path = os.path.join(REPO_ROOT, "solutions", filename)
+        if not os.path.exists(solution_path):
+            errors.append(f"Missing solution notebook in solutions/: {filename}")
+            
+        if os.path.exists(root_path) and os.path.exists(master_path) and os.path.exists(solution_path):
+            print(f"   [OK] {filename} verified in all branches")
 
     # 2. Check CSV database
     csv_path = os.path.join(REPO_ROOT, "Learning_Tracker_progress.csv")

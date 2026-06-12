@@ -10,22 +10,22 @@ This repo contains **16 weeks of structured content** with interactive Jupyter N
 
 | Week | Topic |
 |------|-------|
-| 01 | Basics: Signals & Systems |
-| 02 | Fourier, Z, and Laplace Transforms |
-| 03 | Sampling, Aliasing |
-| 04 | Digital Filters (FIR/IIR) |
-| 05 | FFT, STFT, Spectrogram |
-| 06 | Advanced Frequency Analysis |
-| 07 | Audio & Speech Signals |
-| 08 | Audio Denoising / Music Features |
-| 09 | Biomedical Signals (ECG, EEG) |
-| 10 | ML + Biomedical / Anomaly Detection |
-| 11 | Radar & Communications |
-| 12 | Modulation, Demodulation |
-| 13 | IoT / Environmental Sensing + Multirate |
-| 14 | Embedded DSP & Hardware |
-| 15 | Financial Time Series / Kalman |
-| 16 | Wavelets, ICA, ML, Source Separation |
+| 01 | Introduction to Signals & Systems |
+| 02 | Sampling & Aliasing |
+| 03 | Fourier Series & Discrete Fourier Transform (DFT) |
+| 04 | FIR & IIR Filters |
+| 05 | FFT & STFT |
+| 06 | Spectrograms & Real-Time Analysis |
+| 07 | Audio & Speech Basics |
+| 08 | Audio Denoising & Feature Extraction |
+| 09 | Biomedical Signals (ECG & EEG) Preprocessing |
+| 10 | ML + Biomedical & Anomaly Detection |
+| 11 | Radar Signal Processing |
+| 12 | Modulation & Demodulation |
+| 13 | IoT Sensor Streams & Multirate Processing |
+| 14 | Embedded DSP & Hardware Constraints |
+| 15 | Financial Time Series & Kalman Filtering |
+| 16 | Wavelets, ICA & Machine Learning for Signals |
 
 ---
 
@@ -33,22 +33,22 @@ This repo contains **16 weeks of structured content** with interactive Jupyter N
 
 | Week | Topic | Google Colab | Binder |
 |------|-------|---------------|--------|
-| 01 | Signals & Systems | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_01_Signals_And_Systems.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_01_Signals_And_Systems.ipynb) |
-| 02 | Fourier, Z, Laplace | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_02_Sampling_And_Aliasing.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_02_Sampling_And_Aliasing.ipynb) |
-| 03 | Sampling & Aliasing | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_03_Fourier_Series_and_DFT.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_03_Fourier_Series_and_DFT.ipynb) |
-| 04 | Digital Filters (FIR/IIR) | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_04_Filters.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_04_Filters.ipynb) |
-| 05 | FFT, STFT, Spectrogram | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_05_FFT_STFT.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_05_FFT_STFT.ipynb) |
-| 06 | Advanced Frequency Analysis | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_06_Spectrograms.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_06_Spectrograms.ipynb) |
-| 07 | Audio & Speech | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_07_Audio_Speech.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_07_Audio_Speech.ipynb) |
-| 08 | Audio Denoising | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_08_Audio_Denoising.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_08_Audio_Denoising.ipynb) |
-| 09 | Biomedical (ECG, EEG) | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_09_Biomedical.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_09_Biomedical.ipynb) |
-| 10 | ML + Biomedical | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_10_ML_Biomedical.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_10_ML_Biomedical.ipynb) |
-| 11 | Radar & Communication | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_11_Radar_Communication.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_11_Radar_Communication.ipynb) |
+| 01 | Introduction to Signals & Systems | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_01_Signals_And_Systems.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_01_Signals_And_Systems.ipynb) |
+| 02 | Sampling & Aliasing | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_02_Sampling_And_Aliasing.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_02_Sampling_And_Aliasing.ipynb) |
+| 03 | Fourier Series & Discrete Fourier Transform (DFT) | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_03_Fourier_Series_and_DFT.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_03_Fourier_Series_and_DFT.ipynb) |
+| 04 | FIR & IIR Filters | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_04_Filters.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_04_Filters.ipynb) |
+| 05 | FFT & STFT | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_05_FFT_STFT.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_05_FFT_STFT.ipynb) |
+| 06 | Spectrograms & Real-Time Analysis | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_06_Spectrograms.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_06_Spectrograms.ipynb) |
+| 07 | Audio & Speech Basics | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_07_Audio_Speech.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_07_Audio_Speech.ipynb) |
+| 08 | Audio Denoising & Feature Extraction | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_08_Audio_Denoising.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_08_Audio_Denoising.ipynb) |
+| 09 | Biomedical Signals (ECG & EEG) Preprocessing | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_09_Biomedical.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_09_Biomedical.ipynb) |
+| 10 | ML + Biomedical & Anomaly Detection | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_10_ML_Biomedical.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_10_ML_Biomedical.ipynb) |
+| 11 | Radar Signal Processing | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_11_Radar_Communication.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_11_Radar_Communication.ipynb) |
 | 12 | Modulation & Demodulation | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_12_Modulation.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_12_Modulation.ipynb) |
-| 13 | IoT + Multirate | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_13_IoT_Multirate.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_13_IoT_Multirate.ipynb) |
-| 14 | Embedded DSP | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_14_Embedded_DSP.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_14_Embedded_DSP.ipynb) |
-| 15 | Financial + Kalman | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_15_Financial_Kalman.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_15_Financial_Kalman.ipynb) |
-| 16 | Wavelets, ICA, ML | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_16_Wavelets_ICA_ML.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_16_Wavelets_ICA_ML.ipynb) |
+| 13 | IoT Sensor Streams & Multirate Processing | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_13_IoT_Multirate.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_13_IoT_Multirate.ipynb) |
+| 14 | Embedded DSP & Hardware Constraints | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_14_Embedded_DSP.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_14_Embedded_DSP.ipynb) |
+| 15 | Financial Time Series & Kalman Filtering | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_15_Financial_Kalman.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_15_Financial_Kalman.ipynb) |
+| 16 | Wavelets, ICA & Machine Learning for Signals | [Colab](https://colab.research.google.com/github/minthanthtoo/signal-processing-roadmap/blob/main/Week_16_Wavelets_ICA_ML.ipynb) | [Binder](https://mybinder.org/v2/gh/minthanthtoo/signal-processing-roadmap/HEAD?filepath=Week_16_Wavelets_ICA_ML.ipynb) |
 
 ---
 

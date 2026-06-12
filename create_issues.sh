@@ -21,22 +21,22 @@ gh milestone create "Milestone 5 – Advanced DSP" --description "Weeks 15–16:
 ### ⚙️ Step 2: Create Issues Automatically (Script)
 
 declare -a titles=(
-  "Week 01: Basics: Signals & Systems"
+  "Week 01: Introduction to Signals & Systems"
   "Week 02: Sampling & Aliasing"
-  "Week 03: Fourier Series & DFT"
+  "Week 03: Fourier Series & Discrete Fourier Transform (DFT)"
   "Week 04: FIR & IIR Filters"
   "Week 05: FFT & STFT"
-  "Week 06: Spectrograms & Windowing"
+  "Week 06: Spectrograms & Real-Time Analysis"
   "Week 07: Audio & Speech Basics"
-  "Week 08: Audio Denoising & Music Features"
-  "Week 09: ECG & EEG Preprocessing"
+  "Week 08: Audio Denoising & Feature Extraction"
+  "Week 09: Biomedical Signals (ECG & EEG) Preprocessing"
   "Week 10: ML + Biomedical & Anomaly Detection"
   "Week 11: Radar Signal Processing"
   "Week 12: Modulation & Demodulation"
-  "Week 13: IoT Sensor Streams & Multirate"
+  "Week 13: IoT Sensor Streams & Multirate Processing"
   "Week 14: Embedded DSP & Hardware Constraints"
   "Week 15: Financial Time Series & Kalman Filtering"
-  "Week 16: Wavelets, ICA & Machine Learning"
+  "Week 16: Wavelets, ICA & Machine Learning for Signals"
 )
 
 declare -a bodies=(
