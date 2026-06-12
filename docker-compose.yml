@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  curriculum:
+    build: .
+    container_name: signal-processing-sandbox
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/workspace
+    environment:
+      - PYTHONUNBUFFERED=1
